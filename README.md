@@ -119,15 +119,15 @@ python src/main.py
 ```
 
 Outputs are saved to `outputs/`:
-- `processed_data.csv` — full dataset with all features and anomaly flags
-- `anomaly_results.csv` — only the anomalous rows
-- `sensor_overview.png` — time-series with anomalies highlighted
-- `anomaly_score.png` — Isolation Forest score over time
-- `method_comparison.png` — side-by-side method comparison
-- `rolling_features.png` — rolling mean/std visualization
-- `correlation_matrix.png` — feature correlation heatmap
-- `root_cause_ranking.png` — culprit sensor bar chart
-- `confusion_matrix.png` — evaluation confusion matrix
+[Processed Data](outputs/processed_data.csv) — full dataset with all features and anomaly flags
+[Anomaly Resulkts](outputs/anomaly_results.csv) — only the anomalous rows
+![Sensor Overview](outputs/sensor_overview.png) — time-series with anomalies highlighted
+![Anomaly Score](outputs/anomaly_score.png) — Isolation Forest score over time
+![Method Comparison](outputs/method_comparison.png) — side-by-side method comparison
+![Rolling Features](outputs/rolling_features.png) — rolling mean/std visualization
+![Correlation Matrix](outputs/correlation_matrix.png)— feature correlation heatmap
+![Root Cause Ranking](outputs/root_cause_ranking.png) — culprit sensor bar chart
+![Confusion Matrix](outputs/confusion_matrix.png)— evaluation confusion matrix
 
 ### Option B — Jupyter Notebook
 
